@@ -1,6 +1,14 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
-import './App.css';
+import {Button} from 'antd';
+import styled from 'styled-components';
+
+import './App.scss';
+
+const Title = styled.div`
+  font-size: 36px;
+  font-weight: 600;
+`;
 
 class App extends Component {
   render() {
@@ -13,6 +21,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Title>Haloooooo</Title>
+        <Button type="primary">Button</Button>
       </div>
     );
   }
