@@ -1,6 +1,6 @@
-# SavingNextGen CMS
+# EJECTED CRA WITH ANTD
 
-CMS for counseling or education for pregnant and lactating mothers about health aspects during pregnancy, child health, and other things well.
+Be awesome with ejected cra configuration with antd
 
 ## Installation
 
@@ -20,6 +20,11 @@ yarn
 #### Run Webpack<br />
 ```bash
 yarn start
+```
+
+### Run Webpack for dev <br />
+```bash
+yarn run dev
 ```
 
 #### Run unit Test<br />
